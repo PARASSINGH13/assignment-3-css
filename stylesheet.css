@@ -1,0 +1,74 @@
+body {
+    font-family: 'Your Custom Font', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    background-image: url(kit-kat-1563398386.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   
+}
+
+header {
+    background: linear-gradient(to bottom, #ff0000, #FFA500);
+    padding: 20px;
+}
+
+h1 {
+    color: #FFF;
+}
+
+nav ul {
+    background: #333;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+section {
+    
+    text-align: left;
+    margin: 20px;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+footer {
+    background: #333;
+    color: #FFF;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.contact-form form {
+    margin-top: 10px;
+}
+
+.contact-form label, .contact-form input, .contact-form textarea, .contact-form button {
+    display: block;
+    margin: 10px 0;
+}
